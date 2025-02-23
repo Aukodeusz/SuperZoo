@@ -4,5 +4,5 @@
     species: string;
     age: number;
     location: string;
-    status: string; // e.g., "available", "adopted", "transferred"
+    status: string;
 }

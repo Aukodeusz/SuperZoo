@@ -3,7 +3,7 @@
 export class AnimalService {
     private animals: Animal[] = [];
 
-    addAnimal(animal: Animal): void {
+    addAnimal(animal: Animal) {
         this.animals.push(animal);
     }
 
@@ -11,14 +11,14 @@ export class AnimalService {
         return this.animals;
     }
 
-    updateAnimal(id: string, updatedAnimal: Animal): void {
+    updateAnimal(id: string, updatedAnimal: Animal) {
         const index = this.animals.findIndex(animal => animal.id === id);
         if (index !== -1) {
             this.animals[index] = updatedAnimal;
         }
     }
 
-    deleteAnimal(id: string): void {
+    deleteAnimal(id: string) {
         this.animals = this.animals.filter(animal => animal.id !== id);
     }
 }

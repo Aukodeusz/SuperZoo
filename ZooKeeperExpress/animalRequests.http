@@ -1,5 +1,5 @@
 ﻿### Dodanie nowego zwierzęcia
-POST http://localhost:3000/api/animals
+POST http://localhost:4000/api/animals
 Content-Type: application/json
 
 {
@@ -12,10 +12,10 @@ Content-Type: application/json
 }
 
 ### Pobranie listy wszystkich zwierząt
-GET http://localhost:3000/api/animals
+GET http://localhost:4000/api/animals
 
 ### Edycja informacji o zwierzęciu
-PUT http://localhost:3000/api/animals/1
+PUT http://localhost:4000/api/animals/1
 Content-Type: application/json
 
 {
@@ -28,4 +28,4 @@ Content-Type: application/json
 }
 
 ### Usunięcie zwierzęcia
-DELETE http://localhost:3000/api/animals/1
+DELETE http://localhost:4000/api/animals/1

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": "./",  // Główny katalog projektu
+    "outDir": "./"  // Katalog wyjściowy dla skompilowanych plików
+  },
+  "include": ["./**/*"],
+  "exclude": ["node_modules"]
+}
