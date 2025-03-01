@@ -4,11 +4,11 @@ Content-Type: application/json
 
 {
   "id": "1",
-  "name": "Leo",
-  "species": "Lion",
-  "age": 5,
-  "location": "Savannah Area",
-  "status": "available"
+  "name": "Simba",
+  "species": "Scarab",
+  "age": 12,
+  "location": "Desert",
+  "status": "READY"
 }
 
 ### Pobranie listy wszystkich zwierząt
@@ -19,12 +19,12 @@ PUT http://localhost:4000/api/animals/1
 Content-Type: application/json
 
 {
-  "id": "1",
-  "name": "Leo",
-  "species": "Lion",
-  "age": 6,
-  "location": "Savannah Area",
-  "status": "available"
+  "id": "000",
+  "name": "Shibai",
+  "species": "Unknown",
+  "age": 10000000,
+  "location": "Outer Spaces",
+  "status": "Unknown"
 }
 
 ### Usunięcie zwierzęcia
